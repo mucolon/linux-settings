@@ -22,7 +22,7 @@ function color_my_prompt {
   local __colon="$DEFAULT:"
   local __cur_location="$BLUE_BOLD\w"           # capital 'W': current directory, small 'w': full file path
   local __git_branch_color="$GREEN_BOLD"
-  local __prompt_tail="$VIOLET_BOLD\n$"
+  local __prompt_tail="$VIOLET_BOLD$"
   local __user_input_color="$DEFAULT"
   local __git_branch=$(__git_ps1);
 
